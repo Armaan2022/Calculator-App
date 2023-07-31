@@ -6,12 +6,15 @@
 
 <h2>Live Demo</h2>
 
-<p>A live demo of the Weather App can be found <a href="https://weather-app-armaan.netlify.app/" target="_blank">here</a>.</p> 
+<p>A live demo of the Calculator App can be found <a href="https://calculator-app-armaan.netlify.app/" target="_blank">here</a>.</p> 
 
 <h2>Features</h2> 
 <ul> 
-  <li><b>Current Weather:</b> Get the current weather information for any city in the world.</li> 
-  <li><b>Search:</b> Easily search for a specific city and view its weather details.</li> 
-  <li><b>Responsive Design:</b> The app is responsive and works well on both desktop and mobile devices.</li> 
-  <li><b>Error Handling:</b> If the city entered by the user cannot be fetched, it displays an error message.</li> 
+  <li>Addition: Add two numbers.</li>
+  <li>Subtraction: Subtract one number from another.</li>
+  <li>Multiplication: Multiply two numbers.</li>
+  <li>Division: Divide one number by another.</li>
+  <li>Clear: Reset the calculator display.</li>
+  <li>History: Records and displays the recent calculations done by the user.</li>
+  <li>Reset: Clears the history of the user.</li>
 </ul>
