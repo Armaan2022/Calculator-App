@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+a{
+    color: orange;
+}
+.calculator-result{
+    padding: 10px;
+    padding-bottom: 0;
+    max-width: 390px;
+    min-height: 60px;
+    margin: auto;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.container{
+    margin: auto;
+}
+button{
+    font-size: 50px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 0s;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+button:hover{
+    background-color: rgb(110, 110, 110);
+}
+.history{
+    margin: auto;
+    max-width: 400px;
+    text-align: right;
+}
+.history-btn{
+    border-radius: 10cm;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+    right: 0;    
+}
+.reset-btn{
+    background-color: rgb(90, 60, 60);
+    font-size: 13px;
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    padding: 1px;
+    padding-bottom: 4px;
+    display: none;
+    margin-top: 0;
+}
+.reset-btn:hover{
+    background-color: darkred;
+}
+.show-btn{
+    display: inline;
+}
+.is-showing{
+    max-height: 100px;
+    overflow: overlay;
+    overflow-y: hidden;
+    padding-right: 20px;
+    font-size: 15px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.ac-button, .del-button{
+    width: 150px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 0;
+    background-color: rgb(145, 145, 145);
+    color: black;
+}
+
+.ac-button:hover, .del-button:hover{
+    background-color: rgb(190, 190, 190);
+}
+.zero-button{
+    width: 200px;
+    border-radius: 50px;
+    text-align: left;
+}
+.symbol{
+    background-color: orange;
+    color: white;
+}
+.symbol:hover{
+    background-color: chocolate;
+}

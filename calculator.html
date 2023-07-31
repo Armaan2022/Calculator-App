@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newstyle.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Welcome to <a>eCalculator</a></h1>
+    <p class = "calculator-result"></p>
+    <div class="history">
+        <button class="history-btn" onclick="showHistory()">Show history</button>
+        <p class="history-record"></p>
+        <button class="reset-btn" onclick="resetHistory()">reset</button>
+    </div>
+
+    <div class="container">
+        <div class="rows">
+            <button class="ac-button" onclick="calculate(innerText)">AC</button>
+            <button class="del-button" onclick="calculate(innerText)">Del</button>
+            <button class="symbol" onclick="calculate(innerText)">÷</button>
+        </div>
+        <div class="rows">
+            <button class="number" onclick="calculate(innerText)">7</button>
+            <button class="number" onclick="calculate(innerText)">8</button>
+            <button class="number" onclick="calculate(innerText)">9</button>
+            <button class="symbol" onclick="calculate(innerText)">×</button>
+        </div>
+        <div class="rows">
+            <button class="number" onclick="calculate(innerText)">4</button>
+            <button class="number" onclick="calculate(innerText)">5</button>
+            <button class="number" onclick="calculate(innerText)">6</button>
+            <button class="symbol" onclick="calculate(innerText)">-</button>
+        </div>
+        <div class="rows">
+            <button class="number" onclick="calculate(innerText)">1</button>
+            <button class="number" onclick="calculate(innerText)">2</button>
+            <button class="number" onclick="calculate(innerText)">3</button>
+            <button class="symbol" onclick="calculate(innerText)">+</button>
+        </div>
+        <div class="rows">
+            <button class="zero-button" onclick="calculate(innerText)">0</button>
+            <button class="number" onclick="calculate(innerText)">.</button>
+            <button class="symbol" onclick="findTotal()">=</button>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
